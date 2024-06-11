@@ -20,6 +20,7 @@ This is a solution to the [Loopstudios landing page challenge on Frontend Mentor
 
 ## Demo
 
+https://yamami-mohammed-monsif.github.io/fm--loopstudios-landing-page-main/
 
 ## Description
 
@@ -27,14 +28,14 @@ This is a solution to the [Loopstudios landing page challenge on Frontend Mentor
 
 ## Features
 
-### Responsive Design:
-- The page is fully responsive, ensuring a great user experience on both mobile and desktop devices.
-### Interactive Header:
-- A visually striking header with a background image that adapts to the screen size.
-### Navigation Menu:
-- A navigation menu that transforms into a hamburger menu on smaller screens for better usability.
-### Showcase of Creations:
-- A grid layout showcasing various VR projects, with hover effects to highlight each project.
+- Responsive Design:
+The page is fully responsive, ensuring a great user experience on both mobile and desktop devices.
+- Interactive Header:
+A visually striking header with a background image that adapts to the screen size.
+- Navigation Menu:
+A navigation menu that transforms into a hamburger menu on smaller screens for better usability.
+- Showcase of Creations:
+A grid layout showcasing various VR projects, with hover effects to highlight each project.
 ### Informative Sections:
 - Sections that provide information about the company and its offerings.
 Footer: A well-organized footer with navigation links and social media icons
@@ -53,6 +54,14 @@ Footer: A well-organized footer with navigation links and social media icons
 - Google Fonts: For typography, using the 'Alata' and 'Josefin Sans' font families.
 
 ## Installation
+
+- **Clone the repository:**
+   ```bash
+   git clone https://github.com/yamami-mohammed-monsif/fm--loopstudios-landing-page-main
+
+   cd fm--loopstudios-landing-page-main
+
+   open index.html
 
 ## Usage
 - Open index.html: Open the index.html file in your preferred web browser.
