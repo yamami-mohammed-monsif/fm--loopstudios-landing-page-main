@@ -30,17 +30,15 @@
         <img src="images/logo.svg" alt="">
       </a>
       <!-- hamburger button-->
-      <button class="hamburger-button" aria-controls="primary-navigation"></button>
+      <button class="hamburger-button" id="hamburger-button" aria-controls="primary-navigation" aria-expanded="false"></button>
       <!-- navigation links -->
-      <nav class="primary-navigation" id="primary-navigation" data-visible="false">
-        <ul class="navigation-links">
-          <li><a href="#">About</a></li>
-          <li><a href="#">Careers</a></li>
-          <li><a href="#">Events</a></li>
-          <li><a href="#">Products</a></li>
-          <li><a href="#">Support</a></li>
-        </ul>
-      </nav>
+      <ul class="primary-navigation" id="primary-navigation" data-visible="false">
+        <li><a href="#">About</a></li>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">Events</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Support</a></li>
+      </ul>
       <h1>Immersive experiences that deliver</h1>
     </header>
 
@@ -65,7 +63,7 @@
         <div class="section-heading">
           <h2>Our creations</h2>
         </div>
-        <div class="grid-four-columns images">
+        <div class="grid-four-columns">
           <div class="creations-relative">
             <picture>
               <source srcset="images/desktop/image-deep-earth.jpg" media="(min-width: 700px)">
@@ -137,11 +135,11 @@
           <img src="images/logo.svg" class="footer-logo" alt="">
           <nav>
             <ul class="footer-navigation">
-              <li><a href="#"></a>About</li>
+              <li><a href="#">About</a></li>
               <li><a href="#">Careers</a></li>
               <li><a href="#">Events</a></li>
-              <li><a href="#"></a>Products</li>
-              <li><a href="#"></a>Support</li>
+              <li><a href="#">Products</a></li>
+              <li><a href="#">Support</a></li>
             </ul>
           </nav>
         </div>
@@ -156,5 +154,7 @@
         </div>
       </div>
     </footer>
+
+    <script src="index.js"></script>
 </body>
 </html>
